@@ -1,0 +1,31 @@
+/*Zona común a todas las resoluciones*/
+body {
+/* este porcentaje escala automáticamente el tamaño que le demos a los textos en em*/    
+    font-size: 80%;
+}
+/*Título de la app web*/
+header {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2em;
+}
+
+/* fin de zona común a todas las resoluciones */
+/* para celulares*/
+@media screen and (min-width:800px) {
+	body {
+		font-size:100%;
+		/* ampliamos los textos si mide más de 800px */
+	}
+}
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+/*para tablets*/
+@media screen and (min-width:1200px) {
+	body {
+		font-size:120%;
+		/* ampliamos más aún los textos si mide más de 1200px */
+	}
+}
+
+/* fin de la zona para más de 1200px de ancho de pantalla */
