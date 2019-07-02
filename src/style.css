@@ -10,6 +10,25 @@ header {
     font-size: 2em;
 }
 
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	
+	}
+	
+#imagenes{
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+}
+  
+  table, td {
+	border: 1px solid black;
+  }
+
 /* fin de zona común a todas las resoluciones */
 /* para celulares*/
 @media screen and (min-width:800px) {
@@ -18,6 +37,8 @@ header {
 		/* ampliamos los textos si mide más de 800px */
 	}
 }
+
+
 
 /* fin de la zona para más de 800px de ancho de pantalla */
 /*para tablets*/
