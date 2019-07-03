@@ -2,6 +2,22 @@
 //hacer que el boton show ejecute la accion de mostrar solo los nombres/
 
 
+/*
+document.getElementById("show-all").addEventListener("click", ()=>{
+    document.getElementById("empty-container").innerHTML = createTable(datos);
+  })
+  document.getElementById("first-evolution").addEventListener("click", ()=>{
+    const result = datos.filter(pokemon => pokemon.next_evolution && !pokemon.prev_evolution);
+    document.getElementById("empty-container").innerHTML = createTable(result);
+  });
+  document.getElementById("second-evolution").addEventListener("click", ()=>{
+    const result = datos.filter(pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 1);
+    document.getElementById("empty-container").innerHTML = createTable(result);
+  });
+  document.getElementById("third-evolution").addEventListener("click", ()=>{
+    const result = datos.filter(pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 2);
+    document.getElementById("empty-container").innerHTML = createTable(result);
+*/
 const datos = POKEMON.pokemon;
 
 
@@ -85,6 +101,7 @@ document.getElementById("test-button").addEventListener("click", ()=>{
   });
   document.getElementById("tercera-evolución").addEventListener("click", ()=>{
   document.getElementById("empty-container").innerHTML = createTable(resultThirdEvolution);
+
   });
   
   document.getElementById("candies").addEventListener("change", ()=>{
@@ -94,9 +111,13 @@ document.getElementById("test-button").addEventListener("click", ()=>{
   
   })
   //crea la tabla con todos los pokemons cuando se inicia la pagina
+
+  document.getElementById("empty-container").innerHTML = createTable(datos);
+
   
 
   document.getElementById("llamandoImagenes").addEventListener("click", ()=>{
     document.getElementById("poke-").innerHTML =showInfo(i);
   })
 */
+
