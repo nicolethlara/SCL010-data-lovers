@@ -15,6 +15,12 @@
 
 ___
 
+#Bichomon
+
+Esta aplicación web fue creada
+
+
+___
 ## Test de Usuario 
 
 El test de usabilidad se enfocará en los aspectos que consideramos como más relevantes para obtener una visión integral de la funcionalidad de nuestra aplicación web, estos aspectos son los siguientes:
