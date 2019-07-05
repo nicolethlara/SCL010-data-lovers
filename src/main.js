@@ -1,30 +1,14 @@
-/* Manejo del DOM */
-//hacer que el boton show ejecute la accion de mostrar solo los nombres/
 
 
-/*
-document.getElementById("show-all").addEventListener("click", ()=>{
-    document.getElementById("empty-container").innerHTML = createTable(datos);
-  })
-  document.getElementById("first-evolution").addEventListener("click", ()=>{
-    const result = datos.filter(pokemon => pokemon.next_evolution && !pokemon.prev_evolution);
-    document.getElementById("empty-container").innerHTML = createTable(result);
-  });
-  document.getElementById("second-evolution").addEventListener("click", ()=>{
-    const result = datos.filter(pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 1);
-    document.getElementById("empty-container").innerHTML = createTable(result);
-  });
-  document.getElementById("third-evolution").addEventListener("click", ()=>{
-    const result = datos.filter(pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 2);
-    document.getElementById("empty-container").innerHTML = createTable(result);
-*/
-const datos = POKEMON.pokemon;
+const allData = POKEMON.pokemon;
+let datos = POKEMON.pokemon;
+ 
 
 
-for (let i = 0; i< datos.length; i++){
+  for (let i = 0; i< datos.length; i++){
 
   let pokemonInfo = document.createElement("div");
-  pokemonInfo.id = datos[i].name;
+  pokemonInfo.id = "pokeInfo";
   pokemonInfo.className = "pokeInfo";
 
   let pokemonName = document.createElement("p");
@@ -46,78 +30,75 @@ for (let i = 0; i< datos.length; i++){
   
 }
 
+function cardInfo(datos){
+  document.getElementById("pokemon-container").innerHTML = "";
+  for (let i = 0; i< datos.length; i++){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//creando una variable vacia donde se guardaran solo los nombres desde la data pokemon/
-/*
-function createTable(datos){
-  let result = "<table>";
-  let cantPokemons = 0;
-
-  for (let i = 0; i< datos.length; i++) {
-      if(cantPokemons == 0){
-        result += "<tr>"
-      }
-      result += "<td>"
-      result += '<img id ="imagenes" src="'+datos[i].img+'"  width="110px" onclick="showInfo('+i+')"></img>';
-      result += "<br>"
-      result += "#"+datos[i].id;
-      result += "<div id='poke-"+i+"'></div>"
-      result += "</td>"  
-      cantPokemons++;
-      if(cantPokemons == 9){
-        result += "</tr>"
-        cantPokemons = 0;
-      }
-    }
-  result +="</table>";
-  return result;
-};
-
-document.getElementById("test-button").addEventListener("click", ()=>{
-    document.getElementById("empty-container").innerHTML = createTable(datos);
-  })
-  document.getElementById("primera-evolución").addEventListener("click", ()=>{
-    document.getElementById("empty-container").innerHTML = createTable(resultFirstEvolution);
-  });
-  document.getElementById("segunda-evolución").addEventListener("click", ()=>{
-  document.getElementById("empty-container").innerHTML = createTable(resultSecondEvolution);
-  });
-  document.getElementById("tercera-evolución").addEventListener("click", ()=>{
-  document.getElementById("empty-container").innerHTML = createTable(resultThirdEvolution);
-
-  });
+    let pokemonInfo = document.createElement("div");
+    pokemonInfo.id = "pokeInfo";
+    pokemonInfo.className = "pokeInfo";
   
-  document.getElementById("candies").addEventListener("change", ()=>{
-    const value = document.getElementById("candies").value
-    let result = datos.filter(pokemon => pokemon.egg == value);
-    document.getElementById("empty-container").innerHTML = createTable(result);
+    let pokemonName = document.createElement("p");
+    pokemonName.textContent = datos[i].name;
   
-  })
-  //crea la tabla con todos los pokemons cuando se inicia la pagina
-
-  document.getElementById("empty-container").innerHTML = createTable(datos);
-
+    let pokemonImagen = document.createElement("img");
+    pokemonImagen.src = datos[i].img;
+    pokemonImagen.className = "pokeImagen";
   
+    let pokemonId = document.createElement("p");
+    pokemonId.textContent = datos[i].id;
+  
+    pokemonInfo.appendChild(pokemonName);
+    pokemonInfo.appendChild(pokemonImagen);
+    pokemonInfo.appendChild(pokemonId);
+  
+    document.getElementById("pokemon-container").appendChild(pokemonInfo).innerHTML;
+    
+  }
+  stats = computeStats(datos)
+  ans =  "Promedio de altura: "+stats["prom"]+"<br>";
+  ans += "Pokemon mas alto: "+stats["maxHeight"].name+" con "+stats["maxHeight"].height+"<br>"
+  ans += "Pokemon mas bajo: "+stats["minHeight"].name+" con "+stats["minHeight"].height
+  document.getElementById("stats").innerHTML = ans;
+}
 
-  document.getElementById("llamandoImagenes").addEventListener("click", ()=>{
-    document.getElementById("poke-").innerHTML =showInfo(i);
-  })
-*/
+
+
+//DOM FUNCIÓN FILTRAR
+
+
+
+document.getElementById("candies").addEventListener("change",() => {
+ let tipoFilter = document.getElementById("candies").value;
+ const condition = (pokemon => pokemon.egg == tipoFilter);
+ datos = filterData(allData, condition);
+ cardInfo(datos);
+})
+
+document.getElementById("primera-evolución").addEventListener("click", ()=>{
+  const condition = (pokemon => pokemon.next_evolution && !pokemon.prev_evolution);
+  datos = filterData(allData, condition);
+ 
+  cardInfo(datos)
+});
+
+document.getElementById("segunda-evolución").addEventListener("click", ()=>{
+  const condition = (pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 1);
+  datos = filterData(allData, condition);
+ cardInfo(datos);
+});
+
+document.getElementById("tercera-evolución").addEventListener("click", ()=>{
+  const condition = (pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 2);
+  datos = filterData(allData, condition);
+ cardInfo(datos);
+});
+
+document.getElementById("alfabeto").addEventListener("change",() => {
+  let order = document.getElementById("alfabeto").value;
+  let lastResult = sortData(datos, "name", order);
+  cardInfo(lastResult)
+ });
+
+
 
