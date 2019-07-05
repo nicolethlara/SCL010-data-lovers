@@ -5,29 +5,41 @@ body {
 	display: flex;
 }
 /*Título de la app web*/
+
+#pokemon-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  border: 1px black;
+}
+p{
+	
+}
+img{
+	background-color: pink;
+}
 header {
     display: flex;
     justify-content: flex-start;
     font-size: 2em;
 }
-/*tabla de pokemones*/
-table {
-	border-collapse: collapse;
-	table-layout: fixed;
-	margin:auto;
-	display: flex;
-	justify-content: center;
-	
-	}
-	
+
+
 #imagenes{
 	background-color: pink;
 	display: flex;
 	justify-content: center;
 }  
-  table, td {
-	border: 1px solid black;
-  }
+ 
+
+.pokeInfo{
+	align-content: flex-end;
+}
+.pokeImagen{
+	background-color: aqua;
+	margin: 10px;
+	
+}
 
 /* ubicación y estilo de botones*/
   .button {
