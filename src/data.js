@@ -1,51 +1,57 @@
-/* Manejo de data */
-
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
 
 
 
 
-/*
-const example = () => {
-  return 'example';
-};
-
-window.example = example;
-*/
-/* Manejo del DOM */
-//llamando toda la data de pokemon
-
-
-/*
-function showInfo(i){
-  if(document.getElementById("poke-"+i).innerHTML== ""){
-    let result= datos[i].name;
-    result += "<br>"
-    result += "Debilidad: "+datos[i].weaknesses;
-    document.getElementById("poke-"+i).innerHTML = result;
-  }else{
-    document.getElementById("poke-"+i).innerHTML = "";
-  }  
-  return showInfo();
-}
-
-//hacer que el boton show ejecute la accion de mostrar solo los nombres/
-
-document.getElementById("empty-container").innerHTML = createTable(datos);
-
-//filtros para evoluciones de los Pokemones
-const resultFirstEvolution = datos.filter(pokemon => pokemon.next_evolution && !pokemon.prev_evolution);
-
-const resultSecondEvolution = datos.filter(pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 1);
-
-const resultThirdEvolution = datos.filter(pokemon => pokemon.prev_evolution && pokemon.prev_evolution.length == 2);
-
-*/
-
-function filter (dataEggs) {
- for (let i = 0; i< datos.length; i++) {
-   
+function filterData(data, condition){
+  let result = data.filter(condition);
+  return result;
  }
 
-}
+ function sortData(data, sortBy, sortOrder){
+   //sortOrder = "Asc", "Dsc"
+  //a.name == a['name']
+   if(sortOrder == "Asc"){
+     function comparar(a,b){
+      if(a[sortBy] > b[sortBy]){
+        return 1;
+      }if(a[sortBy]  < b[sortBy] ){
+        return -1;
+      }
+      return 0
+     }
+    
+   }
+   if(sortOrder == "Dsc"){
+    console.log("chau")
+    function comparar(a,b){
+      if(a[sortBy] > b[sortBy]){
+        return -1;
+      }if(a[sortBy] < b[sortBy]){
+        return 1;
+      }
+      return 0;
+     }
+
+   }
+   return data.sort(comparar);
+ }
+ function computeStats(data){
+   let pokeMaxHeight = data[0];
+   let pokeMinHeight =  data[0];
+    let promHeight = 0;
+   for (let i = 0; i< data.length; i++){
+     let height = parseFloat(data[i].height.split(" ")[0])
+    promHeight += height;
+    if(pokeMaxHeight.height < data[i].height){
+      pokeMaxHeight = data[i];
+    }
+    if(pokeMinHeight.height > data[i].height){
+      pokeMinHeight = data[i];
+    }
+  }
+  prom = promHeight/data.length;
+  ans = {"maxHeight":pokeMaxHeight, "minHeight":pokeMinHeight, "prom":promHeight}
+  return ans;
+ }
+
+
