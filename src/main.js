@@ -1,7 +1,7 @@
 
 
-const allData = POKEMON.pokemon;
-let datos = POKEMON.pokemon;
+const allData = window.POKEMON.pokemon;
+let datos = window.POKEMON.pokemon;
  
 
 //recorrer la data
@@ -57,6 +57,7 @@ function cardInfo(datos){
     
   }
 //calculos de promedio de la estatura de los pokemons 
+stats();
   stats = computeStats(datos)
   ans =  "Promedio de altura: "+stats["prom"]+"<br>";
   ans += "Pokemon mas alto: "+stats["maxHeight"].name+" con "+stats["maxHeight"].height+"<br>"

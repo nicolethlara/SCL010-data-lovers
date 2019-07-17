@@ -1,11 +1,9 @@
-
-
-
-
 function filterData(data, condition){
   let result = data.filter(condition);
   return result;
  }
+filterData();
+
 
  function sortData(data, sortBy, sortOrder){
    //sortOrder = "Asc", "Dsc"
@@ -19,10 +17,9 @@ function filterData(data, condition){
       }
       return 0
      }
-    
+     comparar();
    }
    if(sortOrder == "Dsc"){
-    console.log("chau")
     function comparar(a,b){
       if(a[sortBy] > b[sortBy]){
         return -1;
@@ -31,27 +28,53 @@ function filterData(data, condition){
       }
       return 0;
      }
-
+  comparar();
    }
    return data.sort(comparar);
  }
- function computeStats(data){
-   let pokeMaxHeight = data[0];
-   let pokeMinHeight =  data[0];
+  sortData();
+
+
+ function pokeProm(data){
+   
     let promHeight = 0;
+    let sumHeight = 0;
+    let countHeight = 0;
    for (let i = 0; i< data.length; i++){
-     let height = parseFloat(data[i].height.split(" ")[0])
-    promHeight += height;
-    if(pokeMaxHeight.height < data[i].height){
-      pokeMaxHeight = data[i];
-    }
-    if(pokeMinHeight.height > data[i].height){
-      pokeMinHeight = data[i];
-    }
+     let height = parseFloat(data[i].height.split(" ")[0]);
+     sumHeight = sumHeight + height;
+    
+     countHeight = countHeight + 1;
+
+    promHeight = (sumHeight/countHeight).toFixed(2);
+    
   }
-  prom = promHeight/data.length;
-  ans = {"maxHeight":pokeMaxHeight, "minHeight":pokeMinHeight, "prom":promHeight}
-  return ans;
+  return promHeight;
  }
+ pokeProm();
+
+ function pokeMaxHeight(data){
+  let pokeMaxHeight = data[0].height;
+  for (let i = 0; i< data.length; i++){
+    if(pokeMaxHeight < data[i].height){
+      pokeMaxHeight = data[i].height;
+      
+       }
+  }
+return pokeMaxHeight;
+}
+ pokeMaxHeight();
 
 
+function pokeMinHeight(data){
+  let pokeMinHeight = data[0].height;
+  for (let i = 0; i< data.length; i++){
+    if(pokeMinHeight > data[i].height){
+      pokeMinHeight = data[i].height;
+      
+       }
+  }
+
+return pokeMinHeight;
+}
+ pokeMinHeight();
