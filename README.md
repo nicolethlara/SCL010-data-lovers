@@ -22,8 +22,8 @@ ___
 
 Este es un test de usabilidad general, la idea es aplicarlo con el formato sketch de nuestro prototipo, los aspectos que tratará nuestra prueba son los siguientes:
 
-•Contenido
-•Navegación
+- Contenido
+- Navegación
 
 ### Objetivo
 
@@ -46,10 +46,10 @@ Fecha:
 Sitio Web: 
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
 
 **Presentación del usuario**
 1. ¿Cuál es tu nombre?, ¿Que edad tienes?
@@ -80,10 +80,10 @@ Fecha: 2 de Julio, 2019
 Sitio Web: Bichomon
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
 
 **Presentación del usuario**
 1. ¿Cuál es tu nombre?, ¿Que edad tienes?
@@ -120,10 +120,10 @@ Fecha: 2 de julio, 2019
 Sitio Web: 
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
 
 **Presentación del usuario**
 1. ¿Cuál es tu nombre?, ¿Que edad tienes?
@@ -159,10 +159,10 @@ Fecha: 2 de julio, 2019
 Sitio Web: 
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
 
 **Presentación del usuario**
 1. ¿Cuál es tu nombre?, ¿Que edad tienes?
@@ -199,10 +199,10 @@ Fecha: 2 de julio, 2019
 Sitio Web: Bichomon
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
 
 **Presentación del usuario**
 1. ¿Cuál es tu nombre?, ¿Que edad tienes?
@@ -238,10 +238,10 @@ Fecha: 2 de julio, 2019
 Sitio Web: Bichomon
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando interactúe con el prototipo de la aplicación web. 
 
 **Presentación del usuario**
 1. ¿Cuál es tu nombre?, ¿Que edad tienes?
@@ -297,11 +297,11 @@ ___
 
 El test de usabilidad se enfocará en los aspectos que consideramos como más relevantes para obtener una visión integral de la funcionalidad de nuestra aplicación web, estos aspectos son los siguientes:
     
- -Identidad 
- -Contenido 
- -Navegación 
- -Gráfica Web 
- -Utilidad 
+ - Identidad 
+ - Contenido 
+ - Navegación 
+ - Gráfica Web 
+ - Utilidad 
  
  ### Objetivo
  Nuestro objetivo con esta prueba es recoger información general y específica que nos permita tener una idea clara de la percepción del usuario respecto a la funcionalidad y contenido de nuestra aplicación web. Para lograr esto de una mejor manera a continuación explicaremos las preguntas de cada sección y que información buscamos recopilar de cada una
@@ -343,10 +343,10 @@ Fecha:
 Sitio Web: 
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
 
  <Nombre usuario>, agradecemos tu disposición de participar en esta “Prueba de Usabilidad”  que nos ayudará a detectar problemas en el sitio que desarrollamos.  Es importante que sepas que ésta prueba solo busca medir la usabilidad de nuestro sitio y no tu desempeño en el. Vamos a comenzar con algunas preguntas que nos permitirán saber quién eres y cómo utilizas Internet. 
 
@@ -403,10 +403,10 @@ Fecha: 8 de julio, 2019.
 Sitio Web: Pokemon
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
 
  <Nombre usuario>, agradecemos tu disposición de participar en esta “Prueba de Usabilidad”  que nos ayudará a detectar problemas en el sitio que desarrollamos.  Es importante que sepas que ésta prueba solo busca medir la usabilidad de nuestro sitio y no tu desempeño en el. Vamos a comenzar con algunas preguntas que nos permitirán saber quién eres y cómo utilizas Internet. 
 
@@ -484,10 +484,10 @@ Fecha: 8 de julio, 2019.
 Sitio Web: Pokemon
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
 
  <Nombre usuario>, agradecemos tu disposición de participar en esta “Prueba de Usabilidad”  que nos ayudará a detectar problemas en el sitio que desarrollamos.  Es importante que sepas que ésta prueba solo busca medir la usabilidad de nuestro sitio y no tu desempeño en el. Vamos a comenzar con algunas preguntas que nos permitirán saber quién eres y cómo utilizas Internet. 
 
@@ -564,10 +564,10 @@ Fecha: 8 de julio, 2019
 Sitio Web: Pokemon
 
 **NOTA para la aplicación prueba:** 
--Entregar todas las instrucciones de forma simple y repetitiva. 
--Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
--Anotar todo lo posible 
--Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
 
  <Nombre usuario>, agradecemos tu disposición de participar en esta “Prueba de Usabilidad”  que nos ayudará a detectar problemas en el sitio que desarrollamos.  Es importante que sepas que ésta prueba solo busca medir la usabilidad de nuestro sitio y no tu desempeño en el. Vamos a comenzar con algunas preguntas que nos permitirán saber quién eres y cómo utilizas Internet. 
 
