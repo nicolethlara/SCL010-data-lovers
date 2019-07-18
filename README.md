@@ -6,6 +6,45 @@ Esta aplicación web fue creada pensando en los jugadores amateurs de pokemon, y
 
 ___
 
+## Encuesta para investigación de público objetivo
+
+[Formulario de encuesta]("https://docs.google.com/forms/d/e/1FAIpQLSdJP1mBGQlU6KihE_iwmc89ldPy1AU4IgfWLyOt3Zwc5YvCSA/viewform")
+
+**Resultados de la encuesta**
+
+![gráfico uno](img/encuesta-grafico-1.jpeg)
+
+![gráfico dos](img/encuesta-grafico-2.jpeg)
+
+![gráfico tres](img/encuesta-grafico-3.jpeg)
+
+![gráfico cuatro](img/encuesta-grafico-4.jpeg)
+
+![gráfico cinco](img/encuesta-grafico-5.jpeg)
+
+**Conclusiones de la encuesta**
+
+La encuesta fue creada con el objetivo principal de conocer a nuestro usuario objetivo, definirlo y hacer un filtro de cuáles son los contenidos que le parecen más atractivos. Primero notamos que hay una gran cantidad de usuarios jóvenes de Pokemon Go, por lo que decidimos orientar nuestra aplicación web a un público objetivo adolescente y principiante, en consideración también de la data que tenemos disponibles, que no contiene mucha información de interés para jugadores más avanzados. Las preguntas que estaban más orientadas a una selección de contenidos fueron súper útiles para decidir que filtros usaríamos, los más votados fueron los de km de eclosión, evolución y tipo, además de ordenarlos alfabeticamente.
+
+___
+
+## Historias de Usuario
+
+Las historias de usuario fueron creadas a partir de la información que recopilamos en la encuesta, tomando en cuenta las respuestas con mayor preferencia para desde ahí construir un usuario prototipo.
+
+COMO: jugador principiante de Pokemon GO               
+QUIERO: saber cuales son las evoluciones de mis pokemones    
+PARA: aprender más sobre ellos
+
+COMO: Jugador principiante de Pokemon Go
+QUIERO: Conocer los Km necesarios para las eclosiones de cada pokemon
+PARA: Saber qué esperar de los huevos que tengo
+
+COMO: jugador amateur de Pokemon Go
+QUIERO: conocer informaciones generales de los pokemons como su estatura
+PARA: para estar más informado cuando converso con otros jugadores
+___
+
 ## Primer sketch de la aplicación web
 
 ![](img/sketch-pokemon-1.jpeg)
@@ -645,13 +684,14 @@ ___
 
 ### Segunda iteración wireframe
 
-![](img/wireframe-celular)
+![](img/wireframe-celular.png)
 ___
 
 ### Protitpo alta fidelidad
 
-![](url:"https://www.figma.com/file/Pmrb5kBJVVHDY3k1fB0ouYMg/Untitled?node-id=19%3A28")
-![](url:"https://www.figma.com/proto/Pmrb5kBJVVHDY3k1fB0ouYMg/Untitled?node-id=19%3A27&scaling=min-zoom")
+[Prototipo de alta fidelidad para celular]("https://www.figma.com/file/Pmrb5kBJVVHDY3k1fB0ouYMg/Untitled?node-id=19%3A28")
+
+[Prototipo de alta fidelidad para computador]("https://www.figma.com/proto/Pmrb5kBJVVHDY3k1fB0ouYMg/Untitled?node-id=19%3A27&scaling=min-zoom")
 
 ___
 
@@ -659,7 +699,9 @@ ___
 
 ![](img/pokedesk.png)
 
+
 ![](img/poke-primera-evolución.png)
+
 
 ![](img/poke-select.png)
 
@@ -668,6 +710,7 @@ ___
 ### Paleta de colores
 
 ![](img/paleta-de-colores.png)
+
 ___
 
 ## Descisiones de Diseño
@@ -679,3 +722,15 @@ Decidimos utilizar para el fondo una imagen que contuviera los colores más dint
 la paleta de colores la construimos primero teniendo en cuenta los colores tradicionales de la marca pokemon, y luego escogiendo tonalidades claras y pastel que pudieran combinar armónicamente con estas, los tonos rosados son usualmente asociados a sentimientos de confianza y tranquilidad, así decidimos usarlos en nuestros, para reducir la ansiedad de los usuarios al usar nuestra aplicación.
 
 Debido a que muchos usuarios catalogaron nuestra sección de encabezado de ser demasiado simple, decidimos añadirle la imagen de una pokebola, ya que es el ícono más popular asociado al juego pokemon go, debido a que toda la acción del juego se centra en la acción de atrapar pokemones.  
+
+___
+
+## Evaluación Heurística
+
+**Aplicación de la evaluación**
+
+[Evaluación Heurística](https://docs.google.com/spreadsheets/d/1HrQj8tVJ_Rwjmf1AXPa8W1ZPFd7xBUHkLu5fbSOsGo0/edit#gid=0)
+
+**Conclusiones de la evaluación**
+
+Luego de aplicar la evaluación, me di cuenta que no había aplicado ningún elemento del ítem "ayuda y documentación" a mi aplicación web, por lo que en esta nueva iteración del proyecto implementaré una sección de ayuda, a la cual se accedera por medio de un botón. Esta sección orientara brevemente al usuario sobre las funciones de la aplicación web y como puede navegar a través de ella, así como vínculos para más información en caso de que la desearan. También crearé una sección de preguntas frecuentes donde pueda tratar dudas que los usuarios suelen tener al enfrentarse a esta clase de aplicaciones web. 

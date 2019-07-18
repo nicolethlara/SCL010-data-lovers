@@ -3,21 +3,18 @@ function filterData(data, condition){
   return result;
  }
 filterData();
-
-
+//función para ordenar los pokemons de forma ascendente y descendente
  function sortData(data, sortBy, sortOrder){
-   //sortOrder = "Asc", "Dsc"
-  //a.name == a['name']
    if(sortOrder == "Asc"){
      function comparar(a,b){
       if(a[sortBy] > b[sortBy]){
         return 1;
-      }if(a[sortBy]  < b[sortBy] ){
+      }if(a[sortBy] < b[sortBy] ){
         return -1;
       }
       return 0
      }
-     comparar();
+    
    }
    if(sortOrder == "Dsc"){
     function comparar(a,b){
@@ -28,18 +25,21 @@ filterData();
       }
       return 0;
      }
-  comparar();
+
    }
-   return data.sort(comparar);
- }
-  sortData();
-
-
- function pokeProm(data){
    
+  return data.sort(comparar);
+   
+ }
+
+sortData();
+//función que calcula el promedio
+ function pokeProm(data){
+//crear las variables con valor cero para que partan desde ahí adicionando
     let promHeight = 0;
     let sumHeight = 0;
     let countHeight = 0;
+//crear 
    for (let i = 0; i< data.length; i++){
      let height = parseFloat(data[i].height.split(" ")[0]);
      sumHeight = sumHeight + height;
@@ -47,11 +47,14 @@ filterData();
      countHeight = countHeight + 1;
 
     promHeight = (sumHeight/countHeight).toFixed(2);
+//para que sirve para sacar los decimales
     
   }
+  
+ 
   return promHeight;
  }
- pokeProm();
+pokeProm();
 
  function pokeMaxHeight(data){
   let pokeMaxHeight = data[0].height;
@@ -61,9 +64,10 @@ filterData();
       
        }
   }
+
 return pokeMaxHeight;
 }
- pokeMaxHeight();
+pokeMaxHeight();
 
 
 function pokeMinHeight(data){
@@ -77,4 +81,4 @@ function pokeMinHeight(data){
 
 return pokeMinHeight;
 }
- pokeMinHeight();
+pokeMinHeight();
