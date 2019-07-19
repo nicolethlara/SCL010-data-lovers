@@ -18,17 +18,17 @@ p{
 /*colo de fondo de la imagen de la carta*/
 
 
-#logo-container{
+#logo-container {
 	display: flex;
 }
-#pokebola{
+#pokebola {
 	
 	height: 45px;
 	justify-items: flex-start;
 	margin-top: 23%;
 	
 }
-#logo{
+#logo {
 	
 	height: 100px;
 	justify-items: flex-start;
@@ -50,7 +50,7 @@ header {
 	
 }
 
-.buttons{
+.buttons {
 	display: flex;
     
 	font-size: 40px;
@@ -87,7 +87,7 @@ margin: 10px;
 background-color: white;
 }
 /*tamaño y fonde de la imagen de la*/
-.pokeImagen{
+.pokeImagen {
 	background-color:pink;
 	margin: 10px;
 	height: 80px;
@@ -161,7 +161,7 @@ article {
     border-radius: 8px; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
 }
-#stats{
+#stats {
 
    margin-left: 20px;
    background: #8cc3bb;
@@ -180,7 +180,7 @@ article {
 		/* ampliamos los textos si mide más de 800px */
 	}
 	
-	#logo-container{
+	#logo-container {
 		display: flex;
 	}
 	
@@ -189,7 +189,7 @@ article {
 
 		
 	}
-	#pokebola{
+	#pokebola {
 		display: none; 
 	}
 	section {

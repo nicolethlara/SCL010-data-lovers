@@ -334,6 +334,11 @@ ___
 
 ## Test de Usabilidad 2
 
+**Definición del Usuario**
+
+Nuestra aplicación web esta orientada a usuarios jóvenes y amateurs que esten recién partiendo a jugar Pokemon Go, y que además no disponen de mucho tiempo para jugar. Por lo tanto nuestro muestreo de usuarios se adecuara a este usuario tipo.
+
+
 El test de usabilidad se enfocará en los aspectos que consideramos como más relevantes para obtener una visión integral de la funcionalidad de nuestra aplicación web, estos aspectos son los siguientes:
     
  - Identidad 
